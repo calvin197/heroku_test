@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json())
 
 app.get('/', (req, res)=>{
-    res.send(<h1>Calvin Server is here!!!</h1>)
+    res.send('Calvin Server is here!!!')
 })
 
 app.post('/', (req,res)=>{
